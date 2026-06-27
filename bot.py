@@ -977,7 +977,6 @@ def main() -> None:
     application.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, handle_message))
     
     # تشغيل البوت
-    web: python bot.py
 
 if __name__ == "__main__":
     main()
