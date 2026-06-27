@@ -26,7 +26,7 @@ from telegram.ext import (
     )
 
 # --- إعدادات البوت الأساسية ---
-TOKEN = "8627020385:AAEQ2YkmQKZiS74tfie3Hy-ricFyMa5CqCw"
+TOKEN = os.getenv("TOKEN")
 DEVELOPER_ID = 8011795436  # استبدل برقمك الخاص
 ADMIN_IDS = [DEVELOPER_ID, 8011795436]  # أرقام المشرفين الإضافيين
 REQUIRED_CHANNEL = "https://t.me/ankabot6"  # قناة الاشتراك الإجباري
